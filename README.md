@@ -57,7 +57,6 @@ The project evaluates the following algorithms. Note that due to class imbalance
 * **Reason:** Linear Regression predicts a continuous number (e.g., 0.45, 1.2), assuming a linear relationship. Classification targets are categories (0, 1, 2, 3). The model could not map the features to these discrete categories effectively.
 
 ## 🚀 Future Improvements
-* **Resampling:** Apply SMOTE (Oversampling) to increase the number of medal-winning samples in the training data.
 * **Class Weights:** Adjust algorithm parameters (e.g., `class_weight='balanced'`) to penalize misclassifying medal winners more heavily.
 * **Feature Engineering:** Create new features, such as Body Mass Index (BMI) or historical team performance metrics.
 
